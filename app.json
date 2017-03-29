@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/chat/chat",
+    "pages/blog/blog",
+    "pages/work/work",
+    "pages/more/more"
+  ],
+  "window":{
+    "backgroundTextStyle":"white",
+    "navigationBarBackgroundColor": "#58B7FF",
+    "navigationBarTitleText": "Viperidae",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"#fff",
+    "backgroundTextStyle":"dark",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "color":"#8a8a8a",
+    "selectedColor":"#20A0FF",
+    "backgroundColor":"#fff",
+    "borderStyle":"white",
+    "position":"bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"images/icons/normal/home.png",
+      "selectedIconPath":"images/icons/active/home.png"
+    }, {
+      "pagePath": "pages/chat/chat",
+      "text": "聊天",
+      "iconPath":"images/icons/normal/community.png",
+      "selectedIconPath":"images/icons/active/community.png"
+    }, {
+      "pagePath": "pages/blog/blog",
+      "text": "博客",
+      "iconPath":"images/icons/normal/write.png",
+      "selectedIconPath":"images/icons/active/write.png"
+    }, {
+      "pagePath": "pages/work/work",
+      "text": "工作",
+      "iconPath":"images/icons/normal/calendar.png",
+      "selectedIconPath":"images/icons/active/calendar.png"
+    }, {
+      "pagePath": "pages/more/more",
+      "text": "更多",
+      "iconPath":"images/icons/normal/more.png",
+      "selectedIconPath":"images/icons/active/more.png"
+    }]
+  },
+  "debug": true
+}
